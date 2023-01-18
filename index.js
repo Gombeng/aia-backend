@@ -18,7 +18,7 @@ app.use((error, req, res, next) => {
 });
 
 const PORT = 4000;
-const URI = `https://www.flickr.com/services/feeds/photos_public.gne?format=json`;
+const URI = `https://www.flickr.com/services/feeds/photos_public.gne?format=json&nojsoncallback=?`;
 const YOUR_API_KEY = '77110961c7fb30763073477da0e6ad63';
 
 app.listen(PORT, () => {
